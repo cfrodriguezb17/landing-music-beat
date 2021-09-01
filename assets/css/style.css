@@ -1,0 +1,125 @@
+:root {
+    --amarillo: #ffc401;
+    --negro: #0c0c0c;
+    --negro-claro: #19191b;
+    --gris-oscuro: #1f1f1f;
+    --gris-medio: #252527;
+    --gris: #363639;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--gris);
+    font-size: 1.6rem;
+}
+
+.df-al-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+
+}
+
+header {
+    background-color: var(--negro);
+    color: #fff;
+    text-transform: uppercase;
+    height: 8rem;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+header figure {
+    margin: 0;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.hero {
+    background-color: var(--negro-claro);
+    height: calc(120vh + 8rem);
+    padding: 4rem 8rem;
+    padding-top: .1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-aside {
+    width: 35%;
+}
+
+.hero figure {
+    width: 65%;
+}
+
+.aside-texto {
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    top: -1rem;
+    left: 20rem;
+}
+
+.aside-texto h3 {
+    font-size: 2.5rem;
+    font-weight: 350;
+}
+
+
+.aside-texto h2 {
+    font-size: 5rem;
+    width: 274px;
+    font-weight: 400;
+    background-color: var(--negro-claro);
+}
+
+.aside-texto .aside-texto-play {
+    width: 251px;
+}
+
+.contenedor-boton {
+    margin-top: 4rem;
+}
+
+.contenedor-boton button {
+    background-color: #ffc401;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-boton button img {
+    width: 2rem;
+    margin-right: 1rem;
+}
